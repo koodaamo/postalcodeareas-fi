@@ -18,11 +18,15 @@ cd into the directory having the `flit.ini` file and run:
 ## Building the data
 
 Check out the source, cd to directory containing the
-`rebuild.py` module, and run it. To use data from the
-Google Fusion table created by Duukkis, you should
-get an API key from Google as well. To use data provided
-by Statistics Finland, using the Paavo API, no api key
-is needed.
+`rebuild.py` module, and run it:
+
+    python rebuild.py --help
+
+Then use the (re)builder script as instructed. To use
+data from the Google Fusion table created by Duukkis, you
+should get an API key from Google as well. To use data
+provided by Statistics Finland, using the Paavo API, no
+api key is needed.
 
 ## Using the data
 
