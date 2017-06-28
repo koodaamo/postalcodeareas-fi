@@ -1,0 +1,21 @@
+"""
+Postal code areas and area centers are provided as Python dicts keyed by postal code string.
+The dictionary values consist of coordinate points made of two-tuples (x, y).
+"""
+
+#
+# postal area boundary polygon points coordinates keyed by postal code
+#
+
+areas = {
+%s
+}
+
+
+#
+# postal area center point coordinates keyed by postal code
+#
+
+centers = {
+%s
+}
