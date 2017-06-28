@@ -1,10 +1,12 @@
 # postalcodeareas-fi
-Finnish postal code areas
 
 This package provides Finnish postal code area boundary
 coordinates and area center coordinates packaged into
 Python dictionaries. Additionally, there are some
 utilities to convert the data to KML or geojson.
+
+The data when fetched and built is about 15MB so you
+may want to instead store it into a database though.
 
 ## Installation
 
@@ -24,6 +26,6 @@ is needed.
 
 ## Using the data
 
-Just do:
+After building the data, just do:
 
     from postalcodeareas_fi.data import areas, centers
